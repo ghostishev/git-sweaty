@@ -48,6 +48,10 @@ class BootstrapWindowsWrapperTests(unittest.TestCase):
         wrapper = self._read_wrapper()
 
         self.assertIn("GIT_SWEATY_BOOTSTRAP_ASSUME_YES", wrapper)
+        self.assertIn('Resolve-CommandPath @("winget", "winget.exe")', wrapper)
+        self.assertIn('Resolve-CommandPath @("gh", "gh.exe")', wrapper)
+        self.assertIn('Resolve-CommandPath @("py", "py.exe")', wrapper)
+        self.assertIn('Resolve-CommandPath @("python", "python.exe")', wrapper)
         self.assertIn('foreach ($scope in @("user", $null))', wrapper)
         self.assertIn('Invoke-WingetInstall "GitHub.cli" "GitHub CLI"', wrapper)
         self.assertIn('foreach ($packageId in @("Python.Python.3.13", "Python.Python.3.12"))', wrapper)

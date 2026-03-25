@@ -99,7 +99,7 @@ function Resolve-CommandPath {
 function Resolve-WingetPath {
     Refresh-Path
 
-    $commandPath = Resolve-CommandPath @("winget.exe", "winget")
+    $commandPath = Resolve-CommandPath @("winget", "winget.exe")
     if ($commandPath) {
         return $commandPath
     }
@@ -151,7 +151,7 @@ function Invoke-WingetInstall {
 function Resolve-GhPath {
     Refresh-Path
 
-    $commandPath = Resolve-CommandPath @("gh.exe", "gh")
+    $commandPath = Resolve-CommandPath @("gh", "gh.exe")
     if ($commandPath) {
         return $commandPath
     }
@@ -211,8 +211,8 @@ function Resolve-PythonRuntime {
     Refresh-Path
 
     foreach ($commandPath in @(
-        (Resolve-CommandPath @("py.exe", "py")),
-        (Resolve-CommandPath @("python.exe", "python"))
+        (Resolve-CommandPath @("py", "py.exe")),
+        (Resolve-CommandPath @("python", "python.exe"))
     )) {
         if (-not $commandPath) {
             continue
