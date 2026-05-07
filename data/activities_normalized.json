@@ -48397,5 +48397,44 @@
     "start_date_local": "2026-04-30T19:54:11Z",
     "type": "Swim",
     "year": 2026
+  },
+  {
+    "date": "2026-05-06",
+    "distance": 15976.1,
+    "elevation_gain": 183.0,
+    "id": "18401717095",
+    "moving_time": 4753.0,
+    "name": "Evening E-Mountain Bike Ride",
+    "raw_activity_type": "Ride",
+    "raw_type": "MountainBikeRide",
+    "start_date_local": "2026-05-06T18:33:21Z",
+    "type": "MountainBikeRide",
+    "year": 2026
+  },
+  {
+    "date": "2026-05-07",
+    "distance": 7374.3,
+    "elevation_gain": 85.0,
+    "id": "18410065213",
+    "moving_time": 2140.0,
+    "name": "Lunch Ride",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-05-07T11:10:34Z",
+    "type": "Ride",
+    "year": 2026
+  },
+  {
+    "date": "2026-05-07",
+    "distance": 11235.0,
+    "elevation_gain": 104.0,
+    "id": "18413064178",
+    "moving_time": 3287.0,
+    "name": "Afternoon Ride",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-05-07T15:20:40Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
