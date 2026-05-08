@@ -26081,6 +26081,20 @@
       "subtype": "Ride",
       "type": "Ride",
       "year": 2026
+    },
+    {
+      "date": "2026-05-08",
+      "hour": 10,
+      "subtype": "Walk",
+      "type": "Walk",
+      "year": 2026
+    },
+    {
+      "date": "2026-05-08",
+      "hour": 17,
+      "subtype": "WeightTraining",
+      "type": "WeightTraining",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -55246,6 +55260,17 @@
           "moving_time": 3413.0
         }
       },
+      "Walk": {
+        "2026-05-08": {
+          "activity_ids": [
+            "18424253344"
+          ],
+          "count": 1,
+          "distance": 6160.0,
+          "elevation_gain": 31.0,
+          "moving_time": 4936.0
+        }
+      },
       "WeightTraining": {
         "2026-01-08": {
           "activity_ids": [
@@ -55381,11 +55406,20 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 3285.0
+        },
+        "2026-05-08": {
+          "activity_ids": [
+            "18426744874"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 3462.0
         }
       }
     }
   },
-  "generated_at": "2026-05-07T16:44:15.592977+00:00",
+  "generated_at": "2026-05-08T16:09:44.008489+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/831981",
   "repo": "ghostishev/git-sweaty",
