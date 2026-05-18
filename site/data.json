@@ -26109,6 +26109,13 @@
       "subtype": "Run",
       "type": "Run",
       "year": 2026
+    },
+    {
+      "date": "2026-05-17",
+      "hour": 17,
+      "subtype": "Walk",
+      "type": "Walk",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -55301,6 +55308,15 @@
           "distance": 2620.7,
           "elevation_gain": 32.0,
           "moving_time": 2433.0
+        },
+        "2026-05-17": {
+          "activity_ids": [
+            "18546990693"
+          ],
+          "count": 1,
+          "distance": 6575.0,
+          "elevation_gain": 30.0,
+          "moving_time": 6419.0
         }
       },
       "WeightTraining": {
@@ -55451,7 +55467,7 @@
       }
     }
   },
-  "generated_at": "2026-05-17T15:51:04.116868+00:00",
+  "generated_at": "2026-05-18T17:25:39.870457+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/831981",
   "repo": "ghostishev/git-sweaty",
