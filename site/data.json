@@ -26116,6 +26116,13 @@
       "subtype": "Walk",
       "type": "Walk",
       "year": 2026
+    },
+    {
+      "date": "2026-05-20",
+      "hour": 15,
+      "subtype": "MountainBikeRide",
+      "type": "MountainBikeRide",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -54729,6 +54736,15 @@
           "distance": 15976.1,
           "elevation_gain": 183.0,
           "moving_time": 4753.0
+        },
+        "2026-05-20": {
+          "activity_ids": [
+            "18581975423"
+          ],
+          "count": 1,
+          "distance": 8159.9,
+          "elevation_gain": 46.0,
+          "moving_time": 2334.0
         }
       },
       "Ride": {
@@ -55467,7 +55483,7 @@
       }
     }
   },
-  "generated_at": "2026-05-19T17:34:14.631236+00:00",
+  "generated_at": "2026-05-20T17:49:39.007115+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/831981",
   "repo": "ghostishev/git-sweaty",
