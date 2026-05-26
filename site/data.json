@@ -26137,6 +26137,13 @@
       "subtype": "Run",
       "type": "Run",
       "year": 2026
+    },
+    {
+      "date": "2026-05-25",
+      "hour": 19,
+      "subtype": "WeightTraining",
+      "type": "WeightTraining",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -55511,11 +55518,20 @@
           "distance": 0.0,
           "elevation_gain": 0.0,
           "moving_time": 3462.0
+        },
+        "2026-05-25": {
+          "activity_ids": [
+            "18650930377"
+          ],
+          "count": 1,
+          "distance": 0.0,
+          "elevation_gain": 0.0,
+          "moving_time": 3284.0
         }
       }
     }
   },
-  "generated_at": "2026-05-25T16:59:21.983086+00:00",
+  "generated_at": "2026-05-26T17:51:45.214325+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/831981",
   "repo": "ghostishev/git-sweaty",
