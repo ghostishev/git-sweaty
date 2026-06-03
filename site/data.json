@@ -26179,6 +26179,13 @@
       "subtype": "Run",
       "type": "Run",
       "year": 2026
+    },
+    {
+      "date": "2026-06-03",
+      "hour": 19,
+      "subtype": "Swim",
+      "type": "Swim",
+      "year": 2026
     }
   ],
   "aggregates": {
@@ -55105,6 +55112,15 @@
           "distance": 750.0,
           "elevation_gain": 0.0,
           "moving_time": 1141.0
+        },
+        "2026-06-03": {
+          "activity_ids": [
+            "18772897423"
+          ],
+          "count": 1,
+          "distance": 1000.0,
+          "elevation_gain": 0.0,
+          "moving_time": 1513.0
         }
       },
       "VirtualRide": {
@@ -55611,7 +55627,7 @@
       }
     }
   },
-  "generated_at": "2026-06-02T18:31:49.512807+00:00",
+  "generated_at": "2026-06-03T18:40:30.084348+00:00",
   "other_bucket": "OtherSports",
   "profile_url": "https://www.strava.com/athletes/831981",
   "repo": "ghostishev/git-sweaty",
