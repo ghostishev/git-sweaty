@@ -48761,5 +48761,18 @@
     "start_date_local": "2026-06-18T19:56:31Z",
     "type": "Swim",
     "year": 2026
+  },
+  {
+    "date": "2026-06-20",
+    "distance": 15713.0,
+    "elevation_gain": 150.0,
+    "id": "19000540404",
+    "moving_time": 2605.0,
+    "name": "Lunch Ride",
+    "raw_activity_type": "Ride",
+    "raw_type": "Ride",
+    "start_date_local": "2026-06-20T11:50:34Z",
+    "type": "Ride",
+    "year": 2026
   }
 ]
